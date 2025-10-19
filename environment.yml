@@ -1,0 +1,23 @@
+name: agri_advisor_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pyyaml
+  - pip
+  - pip:
+      - tensorflow==2.12
+      - torch
+      - torchvision
+      - torchaudio
+      - shap
+      - opencv-python
+      - pillow
